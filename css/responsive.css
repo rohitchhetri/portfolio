@@ -58,7 +58,7 @@ TOC :
     margin-top: 200px;
 }
    header .banner-text h1 {
-      font: 78px/1.1em 'Open Sans', sans-serif;
+      font: 30px/1.1em 'Open Sans', sans-serif;
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
@@ -128,7 +128,10 @@ TOC :
       top: 0;
       right: 0;
    }
-
+header .banner-text {
+    width: 100%;
+    margin-top: 290px;
+}
    #m-nav > a {
      background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
      border: medium none;

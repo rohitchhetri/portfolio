@@ -124,14 +124,15 @@ body { background: #0f0f0f; overflow-y: hidden; }
 /* ------------------------------------------------------------------ */
 
 header {
-   background-size: cover !important;
-	-webkit-background-size: cover !important;
-   text-align: center;
-   overflow: hidden;
-   background-image: url(../images/rohit.jpg);
-   background-repeat: no-repeat;
-   width: 100%;
-   height: auto;
+  position: relative;
+  height: 800px;
+  min-height: 500px;
+  width: 100%;
+  background: #161415 url(../images/bg_rohit.jpg) no-repeat top center;
+  background-size: cover !important;
+ -webkit-background-size: cover !important;
+  text-align: center;
+  overflow: hidden;
 }
 
 /* vertically center banner section */
@@ -152,7 +153,10 @@ header .banner {
    position: relative;
 }
 
-header .banner-text { width: 100%; }
+header .banner-text { 
+  width: 100%;
+  margin-top: 240px;
+}
 header .banner-text h1 {
    font-family: 'Raleway', sans-serif;
    color: #fff;
