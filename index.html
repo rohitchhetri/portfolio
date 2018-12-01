@@ -28,13 +28,9 @@
   <link rel="stylesheet" href="assets/owl-carousel/owl.carousel.css">
   <link rel="stylesheet" href="assets/owl-carousel/owl.theme.css">
 
-  <!-- Script
-   ================================================== -->
-  <script src="js/modernizr.js"></script>
-
   <!-- Favicons
 	================================================== -->
-  <link rel="shortcut icon" href="favicon.png">
+  <link rel="shortcut icon" href="favicon.ico">
 
 </head>
 
@@ -477,6 +473,23 @@
 
             </div>
           </div> <!-- item end -->
+          <div class="columns portfolio-item">
+            <div class="item-wrap">
+
+              <a href="#modal-06" title="">
+                <img alt="" src="./images/portfolio/LIRIAPP.png">
+                <div class="overlay">
+                  <div class="portfolio-item-meta">
+                    <h5>LIRI BOT </h5>
+                    <p>LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.</p>
+                  </div>
+                </div>
+                <div class="link-icon"><i class="fa fa-plus fa-2x"></i></div>
+              </a>
+
+            </div>
+          </div> <!-- item end -->
+
         </div> <!-- portfolio-wrapper end -->
 
       </div> <!-- twelve columns end -->
@@ -590,6 +603,28 @@
         </div>
 
       </div><!-- modal-05 End -->
+
+      <div id="modal-06" class="popup-modal mfp-hide">
+
+        <img class="scale-with-grid" src="./images/portfolio/LIRIAPP.png" alt="LIRI BOT" />
+
+        <div class="description-box">
+          <h4>LIRI BOT</h4>
+          <p>LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and Recognition Interface, LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.</p>
+          <span class="categories"><i class="fa fa-tag"></i>html,css,javascript,jquery,ajax,omdb api & youtube api</span>
+        </div>
+
+        <div class="link-box">
+          <a href="https://github.com/rohitchhetri/liri-node-app" class="button">Git Hub Code</a>
+          <a class="popup-modal-dismiss button btn-close">Close</a>
+        </div>
+
+      </div><!-- modal-05 End -->
+
+
+
+
+
     </div><!-- modal-01 End -->
     </div> <!-- row End -->
 
@@ -669,26 +704,26 @@
         <div class="form-container wow fadeIn">
           <!-- form -->
 
-          <form action="#" method="post" id="contactForm" name="contactForm">
+          <form action="mailer.php" method="post" id="contactForm" name="contactForm">
             <fieldset>
 
               <div>
-                <input type="text" placeholder="Name" value="" size="35" id="contactName" name="contactName">
+                <input type="text" placeholder="Name" value="" size="35" id="contactName" name="name">
               </div>
               <div>
-                <input type="text" placeholder="Phone" value="" size="35" id="phonenumber" name="phonenumber">
-              </div>
-
-              <div>
-                <input type="text" placeholder="Email" value="" size="35" id="contactEmail" name="contactEmail">
+                <input type="text" placeholder="Phone" value="" size="35" id="phonenumber" name="phone">
               </div>
 
               <div>
-                <input type="text" placeholder="Subject" value="" size="35" id="contactSubject" name="contactSubject">
+                <input type="text" placeholder="Email" value="" size="35" id="contactEmail" name="email">
               </div>
 
               <div>
-                <textarea cols="5" rows="5" placeholder="Message" id="contactMessage" name="contactMessage"></textarea>
+                <input type="text" placeholder="Subject" value="" size="35" id="contactSubject" name="subject">
+              </div>
+
+              <div>
+                <textarea cols="5" rows="5" placeholder="Message" id="contactMessage" name="message"></textarea>
               </div>
 
               <div>
@@ -757,9 +792,8 @@
 
   </footer> <!-- Footer End-->
 
-  <!-- Java Script
-   ================================================== -->
-
+  <!-- Java Script =========================== -->
+  <script src="js/modernizr.js"></script>
   <script src="js/jquery-2.1.1.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&AMP;sensor=false"></script>
   <script src="js/gmaps.js"></script>
